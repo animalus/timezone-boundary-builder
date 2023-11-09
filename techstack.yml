@@ -1,0 +1,114 @@
+repo_name: animalus/timezone-boundary-builder
+report_id: 4a01b7370a6e5cea6f981fabefd28f67
+repo_type: Public
+timestamp: '2023-11-09T16:39:34+00:00'
+requested_by: evansiroky
+provider: github
+branch: master
+detected_tools_count: 8
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source: ".travis.yml"
+  last_updated_by: Evan Siroky
+  last_updated_on: 2017-07-04 17:46:14.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: package.json
+  last_updated_by: evansiroky
+  last_updated_on: 2016-06-16 07:05:14.000000000 Z
+- name: "@turf/helpers"
+  description: Turf helpers module
+  package_url: https://www.npmjs.com/@turf/helpers
+  version: 6.1.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18442/default_4f2966c9a26cb738ba085d8c6e3385237a8b3282.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: evansiroky
+  last_updated_on: 2018-10-31 05:30:51.000000000 Z
+- name: async
+  description: Higher-order functions and common patterns for asynchronous code
+  package_url: https://www.npmjs.com/async
+  version: 3.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15851/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: evansiroky
+  last_updated_on: 2019-07-03 05:00:43.000000000 Z
+  vulnerabilities:
+  - name: Prototype Pollution in async
+    cve_id: CVE-2021-43138
+    cve_url: https://github.com/advisories/GHSA-fwr7-v2mv-hh25
+    detected_date: Apr 13
+    severity: high
+    first_patched: 3.2.2
+- name: rimraf
+  description: A deep deletion module for node
+  package_url: https://www.npmjs.com/rimraf
+  version: 2.6.3
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: evansiroky
+  last_updated_on: 2019-07-03 05:00:43.000000000 Z
+- name: standard
+  description: JavaScript Standard Style
+  package_url: https://www.npmjs.com/standard
+  version: 12.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15878/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: evansiroky
+  last_updated_on: 2019-03-31 21:29:06.000000000 Z
